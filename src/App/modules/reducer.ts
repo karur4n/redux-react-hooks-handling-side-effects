@@ -32,6 +32,8 @@ export function reducer(
   state: AppState | undefined,
   action: AppAction
 ): AppState {
+  // redux 内部の INIT アクションが送られたとき、initalState を返す
+  // 下の reducer 群では INIT アクションをハンドリングしづらいので
   if (!state) return initialState
 
   switch (state.status) {
