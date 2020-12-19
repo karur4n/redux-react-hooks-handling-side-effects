@@ -1,4 +1,4 @@
-# react-hooks-handling-side-effects
+# redux-react-hooks-handling-side-effects
 
 DEMO
 
